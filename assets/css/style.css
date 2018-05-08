@@ -2,32 +2,31 @@
 @import url("https://fonts.google.com/specimen/Source+Sans+Pro");
 body {
   margin: 40px;
-  background-color: #EBEBD3;
-  font: Source Sans Pro;
+  background-color: #E4EEF0;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 h1 {
   text-align: center;
-  display: block;
-  font: Source Sans Pro;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 4rem;
   }
 h2 {
     text-align: center;
     display: block;
-    font: Source Sans Pro;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 2rem;
   }
 figcaption {
   font-size: 12px;
 }
 .border {
-    background-color: #EBEBD3;
-    height: 10px
-  }
+  height: 20px;
+  background-color: #121F27;
+}
 .grid-container {
         width : 100%;
         max-width : 1200px;
-    }
+}
 .wrapper {
   justify-content: center;
   margin: auto;
@@ -36,30 +35,33 @@ figcaption {
 .grid1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 500px));
   grid-gap: 30px;
-  background-color: #EBEBD3;
-  margin: auto
+  align-items: center;
+  justify-content: center;
+  background-color: #E4EEF0;
 }
 .grid2 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 60px;
-  background-color: #EBEBD3;
-  margin: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 500px));
+  grid-gap: 30px;
+  align-items: center;
+  justify-content: center;
+  background-color: #E4EEF0;
 }
 .box {
-  background-color: #EBEBD3;
+  background-color: #E4EEF0;
   color: black;
   border-radius: 5px;
   padding: 10px;
   font-size: 150%;
 }
 .img {
-  background-color: #fff;
+  background-color: #E4EEF0;
 }
 img#data-viz{
   display: block;
-  background-color: #EBEBD3;
   max-width: 100%;
   height: auto;
   margin: 0px;
