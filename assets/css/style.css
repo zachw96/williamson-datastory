@@ -73,6 +73,6 @@ img#data-viz{
 }
 img#data-collection{
   display: block;
-  min-width: 150%;
+  max-width: 100%;
   height: auto;
 }
