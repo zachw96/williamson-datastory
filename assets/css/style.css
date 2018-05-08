@@ -23,6 +23,10 @@ figcaption {
   height: 20px;
   background-color: #121F27;
 }
+.border2 {
+  height: 20px;
+  background-color: #121F27;
+}
 .grid-container {
         width : 100%;
         max-width : 1200px;
