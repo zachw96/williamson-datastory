@@ -41,7 +41,7 @@ figcaption {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-columns: repeat(auto-fit, minmax(100px, 500px));
-  grid-gap: 30px;
+  grid-gap: 30px; /*for some reason I cannot get grip gap to show up so that I an then color it and add some more interesting designs to my page.*/
   align-items: center;
   justify-content: center;
   background-color: #E4EEF0;
