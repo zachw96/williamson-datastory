@@ -40,7 +40,7 @@ figcaption {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-columns: repeat(auto-fit, minmax(100px, 500px));
-  grid-gap: 30px;
+  grid-gap: 30px #fff;
   align-items: center;
   justify-content: center;
   background-color: #E4EEF0;
